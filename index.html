@@ -35,7 +35,6 @@
             background-color: rgba(0,0,0,0.8);
             box-shadow: rgba(0,0,0,0.2) 0 0 10px;
             height: 72px;
-            margin-bottom: 10px;
             color: #eee;
             line-height: 72px;
             padding-left: 20px;
@@ -127,6 +126,26 @@
         .sectiontitle {
             font-size: 20px;
         }
+        .nav {
+            background-color: #666666;
+            margin: 0 0 10px 0;
+            box-shadow: rgba(0,0,0,0.2) 0 0 10px;
+            display: block;
+        }
+        .nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        .nav ul li {
+            padding: 10px;
+            margin: 0;
+            display: inline;
+        }
+        .nav ul li a {
+            color: white;
+        }
     </style>
     <script src="jquery.js"></script>
     <script src="rangyinputs.js"></script>
@@ -134,7 +153,14 @@
     <script src="inputter.js"></script>
 </head>
 <body>
-    <header>옛한글 입력기</header>
+    <header>됬.xyz</header>
+    <div class="nav">
+        <ul>
+            <li><a href="https://find.됬.xyz">ᄎᆞ자쎠</a></li>
+            <li><a href="https://blog.됬.xyz">블로그</a></li>
+            <li><a href="https://github.com/chom-kwoy-1">Github</a></li>
+        </ul>
+    </div>
     <div>
         <section>
             <div class="sectiontitle">옛한글 입력기</div>
@@ -162,12 +188,13 @@
             <textarea class='convert convert-output' title='uni-output' placeholder="첫가끝 코드"></textarea>
         </section>
         <section>
-        사용방법 /
-        아래아: Shift+ㅏ /
-        순경음비읍: ㅂㅇ /
-        반치음: ㅅㅇ /
-        여린히읗: Shift+ㅎ /
-        쌍히읗: ㅎㅎ
+            사용방법 /
+            아래아: Shift+ㅏ /
+            순경음비읍: ㅂㅇ /
+            반치음: ㅅㅇ /
+            옛이응: Shift+ㅇ /
+            여린히읗: Shift+ㅎ /
+            쌍히읗: ㅎㅎ
         </section>
     </div>
 </body>
